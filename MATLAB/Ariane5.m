@@ -27,7 +27,7 @@ stage_engines(1) = struct('mode', 1,...
                           'isp0', 434,...  % Vacuum
                           'isp1', 318,...  % Sea level
                           'flow', 316.5,... % Mass flow rate
-                          'data', [1.000 1.000]);   %Throttle Settings?
+                          'data', [1.000 1.000]);   %Throttle Settings
 % SRB 
 stage_engines(2) = struct('mode', 1,...%%%%%%%%%%%%%%%%%%%%%%
                           'isp0', 274.5,...  % Vacuum
@@ -35,7 +35,7 @@ stage_engines(2) = struct('mode', 1,...%%%%%%%%%%%%%%%%%%%%%%
                           'flow', 2*2000,... % Mass flow rate
                           'data', thrustProfile);   %3 SRBs
 stage_time = 132; %Stage Time
-stage_area = pi*(3.1/2)^2; %Area assuming cylinder
+stage_area = pi*(5.4/2)^2; %Area assuming cylinder
 %I have no idea what this is
 stage_drag = [ 0.0  0.08;
                250  0.08;
